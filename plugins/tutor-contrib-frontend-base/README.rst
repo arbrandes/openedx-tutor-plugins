@@ -11,8 +11,9 @@ Frontend-base is a unified framework that replaces ``frontend-build``,
 frontend apps to be loaded as direct plugins within a single shell application,
 rather than as separate, independently deployed micro frontends.
 
-When enabled, this plugin activates the three core frontend apps that ship with
-tutor-mfe: ``authn``, ``learner-dashboard``, and ``instructor-dashboard``.
+When enabled, this plugin activates the two core frontend apps that ship with
+tutor-mfe that are not enabled by default: ``authn`` and ``learner-dashboard``.
+(``instructor-dashboard`` and ``notifications`` are on by default.)
 ``authn`` and ``learner-dashboard`` match existing legacy MFEs, so the legacy
 versions are effectively disabled in favor of their frontend-base counterparts.
 

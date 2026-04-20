@@ -5,5 +5,4 @@ from tutormfe.hooks import FRONTEND_APPS
 def _enable_core_apps(apps):
     apps["authn"]["enabled"] = True
     apps["learner-dashboard"]["enabled"] = True
-    apps["instructor-dashboard"]["enabled"] = True
     return apps
